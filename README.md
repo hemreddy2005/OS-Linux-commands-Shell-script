@@ -167,8 +167,7 @@ cat newfile | grep -i -c "hello"
 
 
 
-grep -R ubuntu /etc
-## OUTPUT
+
 
 
 
@@ -183,7 +182,6 @@ hello world
 Linux is world number 1
 Unix is predecessor
 Linux is best in this World
-^d
 ```
 
 cat > newfile
@@ -193,7 +191,6 @@ hello world
 Linux is world number 1
 Unix is predecessor
 Linux is best in this World
-^d
  ```
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
